@@ -11,3 +11,5 @@ Put data in 'data' file and run
 python corona.py
 You can see the output as graph.
 Example output is given here as png file
+
+Stay Home ! We'll win soon !!!
