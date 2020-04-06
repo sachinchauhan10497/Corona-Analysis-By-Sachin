@@ -18,7 +18,7 @@ def bestA(data):
 	while a <= maxA:
 		sum = 0
 		for i in range(0,l):
-			sum = sum + mod(data[i] - a**i)*i
+			sum = sum + mod(data[i] - a**i)
 		if minSum == 0 or sum < minSum:
 			minSum = sum
 			ans = a

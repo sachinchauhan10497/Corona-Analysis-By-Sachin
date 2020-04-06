@@ -4,8 +4,13 @@ import numpy as np
 import best_fit_a_rest_to_x as my
 
 #India data
-data = [0, 2, 1, 22, 2, 1, 3, 5, 9, 15, 7, 12, 9, 16, 6, 14, 19, 25, 28, 59, 76, 69, 102, 66, 86, 78, 151, 143, 110, 188]
+data = [0, 2, 1, 22, 2, 1, 3, 5, 9, 15, 7, 12, 9, 16, 6, 14, 19, 25, 28, 59, 76, 69, 102, 66, 86, 78, 151, 143, 110, 208, 288, 424, 486, 560, 566]
 
+#Cumulative
+# cul = 0
+# for i in range(0,len(data)):
+# 	cul = cul + data[i]
+# 	data[i] = cul
 
 # General Data
 # data = []
