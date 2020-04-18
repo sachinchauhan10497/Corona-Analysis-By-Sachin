@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Test COVID-19 5 at a time}
+\author{Author : sachinchauhan10497 }
+\date{18th April, 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Algorithm}
+Take sample blood of N people. Mix them all and do Test for Covid-19. If negative, conclude all N negative. If not, Do N tests for separately. 
+
+\section{My Calculation}
+\[Cost \; for \; 1\; Test\; in\; India\; = \; 4000 \; Rs\]
+\[Probability \;of \;Having \;Virus \;in \;India \;= p \; = \;\frac{1}{25} \; (may \; vary \; in \; future)\]
+\[Probability \;of \;no \;one \;from \;N \;persons\;  having\; virus \;\]\[=\;Nhv \;= \; (1 - p)^N \;= \; (1-\frac{1}{25})^5 \;= \;0.81537 \]
+\[Expected \;cost \;for \;1 \;person's \;Test \;= \frac{Nhv * cost + (1 - Nhv) * cost * N}{N}\]
+\[= \frac{0.81537 * 4K + (1 - 0.81537) * 4K * 5}{5} = 1391 \; Rs.\]
+\[Expected \; Tests\; = \; Nhv \; +\; (1\;-Nhv)\;*\;N\;=\;0.81537\;+0.18463\;*5\;=\;1.74\]
+\section{Conclusion}\begin{itemize}
+\item Testing 5 at a time reduces cost from 4000 Rs to 1391 Rs (65\%). It also reduces number of tests from 5 to 1.74 (65\%). 
+\item And this is not just a theory. This has already started in Uttar Pradesh and now we are going to start this in Gujarat.
+\item And why N = 5 ?. Well it is Optimal with given p. One can easily check this.
+\item India is the the first to start this process in the world !  Because every Indiana knows the Mathematics of savings !
+\item Please Do share this if you like it.
+
+\end{itemize}
+\end{document}
